@@ -1,0 +1,27 @@
+public class Solution{
+
+           public int temp=0;
+
+          public int Sum_Solution(int n){
+
+                         complex(n);
+
+                         return temp;
+
+}
+
+
+
+public int complex(int n)   {
+
+           boolean flag = (n-1) >= 0 
+
+         && (temp = temp + n) > 0
+
+         &&complex(n-1)>0;        
+
+           return temp;   
+
+}
+
+}
